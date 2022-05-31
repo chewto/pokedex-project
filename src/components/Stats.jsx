@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Stats.css';
 
-const Stats = ({item}) =>{
+const Stats = ({key,item}) =>{
 	return(
 		<li className='stat-line'>
 			<span className='stat-name'><b>{item.stat.name}</b></span>
