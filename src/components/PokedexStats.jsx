@@ -6,11 +6,13 @@ import ErrorIMG from '../img/error.gif';
 const PokedexStats = ({pokemon,loading,error}) => {
 	if(error){
 		return(
-			<img 
-				src={ErrorIMG} 
-				alt="error"
-				className='visualizer-img'
-			/>
+			<div className='pokemon-info'>
+				<img 
+					src={ErrorIMG} 
+					alt="error"
+					className='visualizer-img'
+				/>
+			</div>
 		)
 	}
 
