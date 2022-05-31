@@ -111,6 +111,10 @@ background: radial-gradient(circle, rgba(246,17,17,1) 21%, rgba(128,11,11,1) 83%
 	.title{
 		font-size: .6em;
 	}
+
+	.stat-line{
+		font-size: 1.35em;
+	}
 }
 
 
@@ -119,6 +123,6 @@ background: radial-gradient(circle, rgba(246,17,17,1) 21%, rgba(128,11,11,1) 83%
   		margin: 0 1em;
   	}
 	.stat-line{
-		font-size: 1.1em;
-	}	
+		font-size: 1.25em;
+	}
 }
