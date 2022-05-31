@@ -1,5 +1,6 @@
 import React from 'react';
 import ErrorIMG from '../img/error.gif';
+import StatsList from './Stats.jsx';
 import '../styles/PokedexPokemonVisualizer.css';
 
 const PokedexPokemonVisualizer = ({pokemon,loading,error}) =>{

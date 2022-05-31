@@ -61,6 +61,8 @@ const Pokedex = () => {
 				<div className='pokedex-container-right'>
 					<PokedexStats
 						pokemon={pokemon}
+						loading={loading}
+						error={error}
 					/>
 				</div>
 			</div>

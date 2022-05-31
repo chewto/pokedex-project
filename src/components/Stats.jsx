@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Stats.css';
 
-const Stats = ({key,item}) =>{
+const StatsList = ({item}) =>{
 	return(
 		<li className='stat-line'>
 			<span className='stat-name'><b>{item.stat.name}</b></span>
@@ -10,4 +10,4 @@ const Stats = ({key,item}) =>{
 	)
 }
 
-export default Stats;
+export default StatsList;
