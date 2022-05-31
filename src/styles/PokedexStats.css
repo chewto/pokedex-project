@@ -1,0 +1,25 @@
+.pokedex-stats{
+  background: #DFDFDF;
+  width: 100%;
+  border-radius: .3em;
+  padding: 2em 2em;
+}
+
+.pokedex-stats:hover{
+  background: #fff;
+  transition: 350ms;
+}
+
+.pokemon-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-stats{
+  list-style: none;
+}
+
+.pokemon-stats>h2{
+  text-align: center;
+  font-size: 2em;
+}

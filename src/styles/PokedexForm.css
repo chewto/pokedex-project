@@ -1,0 +1,33 @@
+.pokemon-form{
+	margin: .5em 0 2em .2em;
+}
+
+.pokemon-input{
+	width: 80%;
+	height: 3em;
+	padding: 0 1em;
+	background: #DFDFDF;
+	border: 0;
+}
+
+.pokemon-input:focus{
+	outline: none;
+	background: #FFF;
+}
+
+.pokemon-input:hover{
+	background: #FFF;
+	transition: 350ms;
+}
+
+.pokemon-btn{
+	padding: .79em .7em;
+	border: 0;
+	cursor: pointer;
+	background: #DFDFDF;
+}
+
+.pokemon-btn:hover{
+	background: #fff;
+	transition: 350ms;
+}
