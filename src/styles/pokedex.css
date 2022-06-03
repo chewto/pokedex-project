@@ -101,6 +101,15 @@ background: radial-gradient(circle, rgba(246,17,17,1) 21%, rgba(128,11,11,1) 83%
 	.title{
 		font-size: .8em;
 	}
+
+	.pokedex-form-container{
+		margin: 0 0 1em 0;
+	}
+
+	.pokemon-options{
+		width: 97.5%;
+		margin: 0 0 0 .2em;
+	}
 }
 
 @media only screen and (max-width:375px){
@@ -124,5 +133,9 @@ background: radial-gradient(circle, rgba(246,17,17,1) 21%, rgba(128,11,11,1) 83%
   	}
 	.stat-line{
 		font-size: 1.28em;
+	}
+	.pokemon-options{
+		width: 98%;
+		margin: 0 0 0 .21em;
 	}
 }
