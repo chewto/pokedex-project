@@ -10,7 +10,7 @@ const PokedexForm = ({setPokemonID, setLoading, setError}) => {
 
 	useEffect(()=>{
 		const pokemon = [];
-		const promises = new Array(386)
+		const promises = new Array(1126)
 		.fill().map((v,i) =>fetch(`https://pokeapi.co/api/v2/pokemon-form/${i + 1}`));
 		Promise.all(promises).then(pokemonArr => {
 			return pokemonArr.map(value => {
