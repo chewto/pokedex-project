@@ -1,5 +1,5 @@
 .pokemon-form{
-	margin: .5em 0 2em .2em;
+	margin: .5em 0 0em .2em;
 }
 
 .pokemon-input{
@@ -30,4 +30,31 @@
 .pokemon-btn:hover{
 	background: #fff;
 	transition: 350ms;
+}
+
+.pokemon-options{
+	background: #DFDFDF;
+	width: 97.5%;
+	margin: 0 0 0 .17em;
+
+}
+
+.option{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: 350ms;
+}
+
+.option:hover{
+	background: #fff;
+}
+
+.span{
+	margin: 0 .5em;
+	padding: 0;
+}
+
+.option>img{
+	width: 4em;
 }
